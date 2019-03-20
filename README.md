@@ -1,9 +1,5 @@
 # Loan_classification_Project_1.
 Loan Classification Project 1.
-This project was done with the intention of predicting defaults. The data was obtained from the Lending Club website. 
-Data wrangling was performed to fill in missing data, drop irrelevant columns, and create new columns. The dataset was 
-made into a data frame containing over 45000 observations and 23 columns. The data was then explored and analyzed. It was 
-decided to build logistic regression and random forest models for classification. One logistic regression model contained every loan. Logistic regression models were also made for each credit grade. Grades are credit scores ranked in grade letters. A single random forest model containing every loan was built. The 
-logistic regression models classified every fully paid loan in the test set as such, and more than 80% of the defaults, in some 
-cases over 90% of the defaults. The random forest model correctly classified every fully paid loan and 62% of the defaults in the test set. The
-validation metric mostly emphasized is the recall rate. 
+The purpose of this project is to predict loan defaults. The data was obtained from the Lending Club website. Data cleaning was done to fill in missing values, drop irrelavent columns, and add columns for analysis using Pandas. The data was explored, visualized, and analyzed using Pandas, Matplotlib, and Seaborn. Machine learning models were built and optimized using Numpy, SciPy, and SK Learn. 
+
+During statistical analysis, the data was grouped by credit grades and it was found that much of the data of different credit grades were distributed differently, with P values of less than 0.0. Due to this, logistic regression models were constructed for each credit grade, along with one logistic regression model containing every loan. The logistic regression model containing every loan had a recall of 0.80 in regards to defaults. The logistic regression models segmented by credit grades had recalls of between 0.78 and 0.95 in regards to defaults. Models of higher credit grades achieved higher recalls than those of lower credit grades. A random forest model was also built and optimized and achieved a recall of 0.70 in regards to defaults. ALL MODELS HAD A RECALL OF 1 IN REGARDS TO FULLY REPAID LOANS EXCEPT ONE SEGMENTED MODEL, WHICH HAD A RECALL OF 0.99 IN REGARDS TO FULLY REPAID LOANS.  
