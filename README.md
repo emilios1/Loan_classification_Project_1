@@ -4,4 +4,4 @@ The purpose of this project is to predict loan defaults. The data was obtained f
 
 Logistic regression and random forest models were trained on a training set, optimized using cross validation and grid search techniques, evaluated for over/ under fitting, and validated using a test set. The optimized logistic regression model has a percision of 0.99 and a recall  of 0.81. The random forest model has a precision of 0.99 and a recall of 0.84. Look at the Machine Learning Notebook, Updated 6-2-19 for more information concerning the predictive models.    
 
-This repository also contains neural networks with 98% accuracy.  
+This repository also contains neural networks with 0.95 accuracy.  
